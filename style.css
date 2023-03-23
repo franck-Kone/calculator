@@ -1,0 +1,195 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+h1{
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 600px;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: rgb(236, 210, 175);
+    
+}
+
+textarea {
+    display: flex;
+    justify-content: center;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 0;
+    width: 95%;
+    height: 200px;
+    background-color: whitesmoke;
+    margin-bottom: 8px;
+    font-size: 25px;
+    text-align: right;
+    overflow: hidden;
+   
+}
+
+hr{
+    margin-top: 0px;
+    width: 95%;
+    color: black;
+    /* font-size: 2px; */
+    margin-left: 2px;
+    margin-right: 2px;
+    /* font-size: 25px; */
+
+}
+
+.line{
+    margin-bottom: 0px;
+}
+
+.navbar{
+    display: flex;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    width: 85%;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: white; */
+    /* margin-bottom: 30px; */
+}
+i{
+ display: flex;
+ font-size: 20px;
+ color: lightgray;
+ /* color: white; */
+ padding-inline: 15px;
+ background-color: rgb(0, 0, 78);
+ border-radius: 10px;
+
+}
+.btns {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    /* height: 70%; */
+    box-sizing: border-box;
+}
+
+button {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left:  10px;
+    /* margin-top: 0px; */
+    margin-bottom: 5px;
+    border-radius: 50%;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(181, 248, 228);
+    color: green;
+}
+.clear{
+    color: red;
+}
+.parenthesis{
+    color: brown;
+}
+.substraction{
+    color: brown;
+}
+.addition{
+    color: brown;
+}
+.multiplication{
+    color: brown;
+}
+.division{
+    color: brown;
+}
+.percent{
+    color: brown;
+}
+.equal{
+    color: white;
+    background-color: brown;
+}
+
+.container-history{
+    display: none;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    flex-direction: column;
+    opacity: 0.98;
+    position: absolute;
+    left: 10px;
+    width: 70%;
+    height: 275px;
+    box-sizing: border-box;
+    background-color: brown;
+  
+}
+
+.container-history::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+/* Track */
+.container-history::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+ 
+}
+
+/* Handle */
+.container-history::-webkit-scrollbar-thumb {
+    background: #b30000;
+    border-radius: 10px;
+   
+}
+
+/* Handle on hover */
+.container-history::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+/* style clear history button */
+.clear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    position:fixed;
+    bottom: 40px;
+    left: 39.65%;
+    top: 75%;
+    width: 10px;
+    height: 25px;
+    background-color: rgb(0, 0, 78) ;
+    color: white;
+    font-size: 0px;
+    font-weight:bold;
+    border-radius: 0px 15px 15px 0px;
+    transition: 0.3s;
+}
+
+.clear:hover {
+    font-size: 15px;
+    width: 150px;
+    cursor: pointer;
+    
+}

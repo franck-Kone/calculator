@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form class="container" id="calculator">
+        <h1>Calculator</h1>
+        <hr>
+        <!-- <div class="screen" id="screen">0</div> -->
+        <textarea name="number" class="textarea" id="textarea" autofocus rows="5" cols="10" wrap="soft" ></textarea>
+        <hr class="line">
+        <div class="navbar">
+            <i class="fa-regular fa-clock history" id="history"></i>
+            <i class="fa-sharp fa-solid fa-delete-left delete" id="delete"></i>
+            
+        
+        </div>
+        <hr>
+
+        <div class="btns">
+            <button class="reset">C</button>
+            <button class="parenthesis">()</button>
+            <button class="percent">%</button>
+            <button class="division">/</button>
+            <button class="seven">7</button>
+            <button class="eight">8</button>
+            <button class="nine">9</button>
+            <button class="multiplication">x</button>
+            <button class="four">4</button>
+            <button class="five">5</button>
+            <button class="six">6</button>
+            <button class="substraction">-</button>
+            <button class="one">1</button>
+            <button class="two">2</button>
+            <button class="three">3</button>
+            <button class="addition">+</button>
+            <button class="signs">+/-</button>
+            <button class="zero">0</button>
+            <button class="dot">.</button>
+            <button class="equal">=</button>
+            <div class="container-history">
+                <div class="clear" id="clear-history">Clear history</div>
+            </div>
+        </div>
+        
+        
+
+    </form>
+    
+    <script src="index.js"></script>
+</body>
+</html>
+
