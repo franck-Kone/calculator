@@ -169,14 +169,14 @@ button {
 
 /* style clear history button */
 .clear{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     letter-spacing: 2px;
-    position:fixed;
+    position:absolute;
     bottom: 40px;
-    left: 39.65%;
-    top: 75%;
+    left: 3.45%;
+    top: 50%;
     width: 10px;
     height: 25px;
     background-color: rgb(0, 0, 78) ;

@@ -105,10 +105,13 @@ function displayHistory(historyEl) {
     if (historyEl.target.classList.contains('history') && historyPressedCount === 0) {
 
         historyScreen.style.display = 'flex'
+        clearHistory.style.display = 'flex'
         historyPressedCount++
 
     } else if (historyEl.target.classList.contains('history') && historyPressedCount === 1) {
         historyScreen.style.display = 'none'
+        clearHistory.style.display = 'none'
+
         historyPressedCount = 0
     }
 
